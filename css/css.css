@@ -185,5 +185,33 @@
 }
 
 .fundo {
-    background-color: #0088ff;
+    background-color: #0088ff !important;
 }
+
+.swiper-wrapper {
+    width: 100%;
+    transition-duration: 0ms; 
+    transform: translate3d(-1905px, 0px, 0px); 
+    height: 947px;
+}
+
+.tamanho{
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center;
+    background: #0088ff;
+    
+}
+
+.distancia{
+    margin-top: 25%;
+}
+
+.centro{
+    text-align: center !important;
+    margin: 2%;
+
+}
+
+
+
