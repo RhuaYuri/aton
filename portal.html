@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Página de destino</title>
+</head>
+<body >
+    
+    <img id="minha-imagem" src="./img/2.jpg" alt="">
+  <script>
+    // Obtém o valor do parâmetro "nome" da URL
+    const nome = sessionStorage.getItem("imagem")
+    console.log(nome)
+    document.getElementById("minha-imagem").src = nome;
+  </script>
+  
+  
+
+</body>
+</html>

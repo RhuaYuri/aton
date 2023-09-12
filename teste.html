@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Página de origem</title>
+</head>
+<body>
+
+
+
+<div class="container">
+    <a href="./portal.html"><button id="botao1" onclick="mudarImagem('./img/1.png')" data-imagem="./img/1.png">Imagem 1</button></a>
+    <button id="botao2" onclick="mudarImagem('./img/2.png')" data-imagem="./img/2.png">Imagem 2</button>
+  </div>
+
+  <script>
+    function mudarImagem(botao) {
+      // Obtém o caminho da imagem
+      const imagem = botao;
+      console.log(botao)
+
+      // Altera a imagem da página portal
+      sessionStorage.setItem("imagem", botao);
+    }
+  </script>
+
+</body>
+</html>
